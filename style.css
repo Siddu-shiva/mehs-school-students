@@ -1,0 +1,78 @@
+img{
+    width: 200px;
+    height: 200px;
+}
+button{
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+}
+.primary{
+    background-color: orange;
+}
+.secondary{
+    width:120px ;
+    height: 60px;
+    background-color: green;
+}
+.third{
+    background-color: red;
+}
+#mainButton{
+    width: 150px;
+    height: 75px;
+    background-color: purple;
+    color: white;
+}
+.Qualification{
+    width:200px;
+    height: 20px;
+    padding: auto;
+    background-color: yellow;
+    color:red;
+    font-size: 20px;
+    border: 5px solid black;
+}
+.education{
+    width: 300px;
+    height: 20px;
+    background-color: lightblue;
+    color: black;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.instution{
+    width: 250px;
+    height: 20px;
+    background-color: pink;
+    color: black;
+    font-size: 16px;
+    border: 2px solid gray;
+}
+.Objective{
+    width:200px;
+    height: 20px;
+    padding: auto;
+    background-color: yellow;
+    color:red;
+    font-size: 20px;
+    border: 5px solid black;
+}
+.Skills{
+    width:200px;
+    height: 20px;
+    padding: auto;
+    background-color: yellow;
+    color:red;
+    font-size: 20px;
+    border: 5px solid black;
+}
+.skill{
+    width: 300px;
+    height: 20px;
+    background-color: lightblue;
+    color: black;
+    font-size: 18px;
+    border-radius: 10px;
+}
