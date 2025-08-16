@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Response Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .form-container {
+      background: red;
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px white;
+      width: 100px;
+    }
+
+    h2 {
+      text-align: center;
+      color:pink;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: pink;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="date"],
+    input[type="password"] {
+      width: 10%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid purple;
+      border-radius: 6px;
+      outline: none;
+      background-color:skyblue ;
+    }
+
+    input[type="radio"] {
+      margin-right: 5px;
+    }
+
+    .languages {
+      margin-bottom: 15px;
+    }
+
+    .btn {
+      width: 100%;
+      background: orang;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: orange;
+    }
+
+    .query {
+      width: 100%;
+      padding: 8px;
+      border-radius: 6px;
+      border: 1px solid white;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Response Form</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email">
+
+      <label for="roll">Roll Number:</label>
+      <input type="text" id="roll">
+
+      <label for="branch">Branch:</label>
+      <input type="text" id="branch">
+
+      <label for="section">Section:</label>
+      <input type="text" id="section">
+
+      <label for="mobile">Mobile Number:</label>
+      <input type="number" id="mobile">
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob">
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" placeholder="Enter your age">
+
+      <label for="password">Password:</label>
+      <input type="password" id="password">
+
+      <label>Languages Interested In:</label>
+      <div class="languages">
+        <input type="radio" name="lang" value="Java"> Java
+        <input type="radio" name="lang" value="SQL"> SQL
+        <input type="radio" name="lang" value="Python"> Python
+      </div>
+
+      <label for="queries">Any Queries?</label>
+      <input type="text" id="queries" class="query" placeholder="Optional">
+
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>
